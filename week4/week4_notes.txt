@@ -1,0 +1,5 @@
+The only reason %matplotlib inline is used is to render any matplotlib diagrams even if the plt.show() function is not called.
+
+However, even if %matplotlib inline is not used, Jupyter will still display the Matplotlib diagram as an object, with something like matplotlib.lines.Line2D object at 0x0392A9D0 appearing before it in the console.
+
+The end point is that it is not necessary anymore, however, it is still convention to keep your code clean and call on the plot that you made, and definitely recommended.
